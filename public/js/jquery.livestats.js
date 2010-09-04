@@ -24,6 +24,7 @@ function LiveStatsClient () {
 };
 
 var liveStatsClient;
+//create an instance of the LiveStatsClient when the document loads
 jQuery(function(){
 	liveStatsClient = new LiveStatsClient();
 });
