@@ -11,13 +11,10 @@ function LiveStatsClient () {
 	
 	this.setupBayeuxHandlers = function(){
 		//hard-coding the url, but will use config.json later
-		self.client=new Faye.Client('http://localhost:8000/faye',{
+		self.client=new Faye.Client('http://' + window.location.hostname + ':8000/faye',{
 			timeout:120
 		});
-		//setup a path to subscribe to events at
-		self.client.subscribe('/stat',function(message) {
-			console.log('MESSAGE',message);
-		});
+
 	};
 	
 	this.init();
