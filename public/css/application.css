@@ -13,3 +13,19 @@ p {
 
 }
 
+#messagesTextArea{
+	height:200px;
+	width:200px;
+}
+
+#messageTextBox{
+	height:25px;
+	width:200px;
+}
+
+#submitButton{
+	position:relative;
+	width:200px;
+	top:20px;
+	left:-205px;
+}
