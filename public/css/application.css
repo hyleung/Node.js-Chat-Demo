@@ -12,6 +12,8 @@ h1
 {
 	color:white;
 }
+
+
 #map {
 
 }
@@ -19,6 +21,7 @@ h1
 #centerBox{
 	height:50%;
 	width:50%;
+	min-width:500px;
 	margin-top:50px;
 	margin-left:auto;
 	margin-right:auto;
@@ -30,14 +33,15 @@ h1
 }
 
 #messageTextBox{
+	width:75%;
 	height:25px;
-	width:83%;
 }
 
 #submitButton{	
-	width:13%;
+	width:20%;
 	height:25px;
-	vertical-align:top;
-	margin-top:7px;
-	margin-left:5px;
+	margin-left:1px;
+	margin-top:4px;
+	float:right;
+	background-color:white;
 }

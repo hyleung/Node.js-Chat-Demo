@@ -13,7 +13,7 @@
 					<key>filename</key>
 					<string>public/css/application.css</string>
 					<key>lastUsed</key>
-					<date>2010-09-05T18:26:52Z</date>
+					<date>2010-09-06T18:35:49Z</date>
 					<key>selected</key>
 					<true/>
 				</dict>
@@ -27,7 +27,7 @@
 			<key>filename</key>
 			<string>public/index.html</string>
 			<key>lastUsed</key>
-			<date>2010-09-05T18:26:52Z</date>
+			<date>2010-09-06T18:35:49Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -61,7 +61,7 @@
 					<key>filename</key>
 					<string>public/js/chatRoom.js</string>
 					<key>lastUsed</key>
-					<date>2010-09-05T17:45:44Z</date>
+					<date>2010-09-06T18:09:03Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -99,9 +99,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>44</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>4</integer>
+		</dict>
+		<key>public/index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>14</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
@@ -112,40 +126,26 @@
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>10</integer>
+				<integer>11</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>14</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>14</integer>
 			</dict>
-		</dict>
-		<key>public/index.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>25</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>public/js/chatRoom.js</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>59</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
