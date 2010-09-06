@@ -21,5 +21,13 @@ jQuery(function(){
 		publishMessage(jQuery('#messageTextBox').val());
 		jQuery('#messageTextBox').val('');
 	});
+	jQuery('#messageTextBox').keypress(function(event) {
+		if(event.keyCode=='13')
+		{
+			event.stopPropagation();
+			publishMessage(jQuery('#messageTextBox').val());
+			jQuery('#messageTextBox').val('');
+		}
+	});
 });
 

@@ -1,5 +1,5 @@
 body {
-    background-color: #111;
+    background-color: #222222;
     font-family: "Helvetica";
     overflow: hidden;
     margin: 0;
@@ -8,24 +8,36 @@ body {
 p {
     color: #999;
 }
-
+h1
+{
+	color:white;
+}
 #map {
 
 }
 
+#centerBox{
+	height:50%;
+	width:50%;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 #messagesTextArea{
 	height:200px;
-	width:200px;
+	width:100%;
 }
 
 #messageTextBox{
 	height:25px;
-	width:200px;
+	width:83%;
 }
 
-#submitButton{
-	position:relative;
-	width:200px;
-	top:20px;
-	left:-205px;
+#submitButton{	
+	width:13%;
+	height:25px;
+	vertical-align:top;
+	margin-top:7px;
+	margin-left:5px;
 }

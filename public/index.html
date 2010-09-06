@@ -6,15 +6,17 @@
 		<title></title>
 	</head>
 	<body>
+		<div id="centerBox">
+		<h1>Node.js chatroom</h1>
 		<div id="messageOutput">
-			<textArea id="messagesTextArea" ></textArea>
+			<textArea id="messagesTextArea" readonly="true" ></textArea>
 
 		</div>
 		<div id="messageInput">
-			<textArea id="messageTextBox"></textArea>
+			<input id="messageTextBox" type="text" name="messageTextBox">
 			<input id="submitButton" type="submit" value="Send"/>
 		</div>
-
+</div>
 		<script type="text/javascript" src="/faye.js">
 </script><script type="text/javascript" src="/js/jquery.js">
 </script><script type="text/javascript" src="/js/raphael.js">
