@@ -9,7 +9,7 @@ function subscribeMessages()
 {
 	//setup a path to subscribe to events at
 	liveStatsClient.client.subscribe('/chatRoom',function(message) {
-		console.log('Incoming MESSAGE',message);
+		//console.log('Incoming MESSAGE',message);
 		var textArea = jQuery('#messagesTextArea');
 		textArea.val(textArea.val()  + message.messageBody + '\n');
 	});
