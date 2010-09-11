@@ -6,24 +6,25 @@
 		<title>Node.js chatroom</title>
 	</head>
 	<body>
-		<div id="centerBox">
-		<h1>Node.js chatroom</h1>
-		<div id="messageOutput">
-			<textArea id="messagesTextArea" readonly="true" ></textArea>
-
+		<div id="container">
+			<h1>Node.js chatroom</h1>
+			<div id="messageOutput">
+				<textArea id="messagesTextArea" readonly="true"></textArea>
+			</div>
+			<div id="messageInput">
+				<input id="messageTextBox" type"text"/>
+			</div>
+			<div id="messageSubmit">
+				<input id="submitButton" type="submit" value="Send"/>
+			</div>
 		</div>
-		<div id="messageInput">		
-			<input id="messageTextBox" type="text" name="messageTextBox">
-			<input id="submitButton" type="submit" value="Send"/>
-		</div>
-</div>
-		<script type="text/javascript" src="/faye.js">
-</script><script type="text/javascript" src="/js/jquery.js">
-</script><script type="text/javascript" src="/js/raphael.js">
-</script><script type="text/javascript" src="/js/images.js">
-</script><script type="text/javascript" src="/js/jquery.livestats.js">
-</script>
-		<script type="text/javascript" src="/js/chatRoom.js">
-</script>
+				<script type="text/javascript" src="/faye.js">
+		</script><script type="text/javascript" src="/js/jquery.js">
+		</script><script type="text/javascript" src="/js/raphael.js">
+		</script><script type="text/javascript" src="/js/images.js">
+		</script><script type="text/javascript" src="/js/jquery.livestats.js">
+		</script>
+				<script type="text/javascript" src="/js/chatRoom.js">
+		</script>
 	</body>
 </html>
